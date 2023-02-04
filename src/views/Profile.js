@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import Navbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Profile() {
@@ -50,69 +50,65 @@ export default function Profile() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src={require("assets/img/team-2-800x800.jpg").default}
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                        src={require("assets/img/2.png").default}
+                        className="shadow-xl rounded-lg h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
                     <div className="py-6 px-3 mt-32 sm:mt-0">
-                      <button
-                        className="bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
-                        Connect
-                      </button>
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-1">
-                    <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          22
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Friends
-                        </span>
-                      </div>
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          10
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Photos
-                        </span>
-                      </div>
-                      <div className="lg:mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          89
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Comments
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="text-center mt-12">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                    Jenna Stones
+                  <h3 className="text-4xl font-bold leading-normal mb-2 text-red-500 mb-2">
+                    Visi & Misi
                   </h3>
-                  <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
-                    <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
-                    Los Angeles, California
+                  <div className="text-2xl leading-normal mt-0 mb-2 text-red-500 font-bold uppercase">
+                    PT. HIZRATECH KONSULTAN SERVIS
                   </div>
-                  <div className="mb-2 text-blueGray-600 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Solution Manager - Creative Tim Officer
-                  </div>
-                  <div className="mb-2 text-blueGray-600">
-                    <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
-                    University of Computer Science
+                </div>
+                <div className="container px-4 mx-auto">
+                  <div className="text-left mt-12 ">
+                    <div className="text-xl leading-normal mt-0 text-lightBlue-600 font-bold uppercase">
+                      Visi
+                    </div>
+                    <div className=" text-blueGray-600 mt-3">
+                      Terwujudnya pengembangan digital dalam negeri yang dibangun dari kreatifitas bersama secara kompeten, sinergis, profesional,
+                    </div>
+                    <div className="mb-2 text-blueGray-600 mt-1">
+                      dan berdaya saing global.
+                    </div>
+                    <div className="text-xl leading-normal mt-5 mb-3 text-lightBlue-600 font-bold uppercase">
+                      Misi
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      1. Berkontribusi pada kemajuan teknologi di segala bidang. Seperti UMKM, Kesehatan, Pendidikan, Pertanian, dll.
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      2. Mendukung penuh partisipasi anak muda dalam merealisasikan pengembangan teknologi sesuai dengan perkembangan zaman.
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      3.  Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan di dunia teknologi informasi.
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      4.  Menjalin kerjasama yang sinergis dan berkelanjutan.
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      5.  Memberikan edukasi pengembangan digital yang efektif sebagai pengabdian kepada masyarakat.
+                    </div>
+                    <div className="mb-2 text-blueGray-600">
+                      6. Memberikan jasa konsultasi dalam meningkatkan kreatifitas, efektivitas, efisiensi, serta produktivitas di bidang teknologi digital.
+                    </div>
+                    <div className="mb-2 leading-relaxed text-blueGray-600 ">
+                      7. Memberikan jasa layanan terbaik dan berkualitas di dukung oleh SDM yang berkompeten di bidangnya.
+                    </div>
                   </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
-                  <div className="flex flex-wrap justify-center">
+                  {/* <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                         An artist of considerable range, Jenna the name taken by
@@ -129,7 +125,7 @@ export default function Profile() {
                         Show more
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

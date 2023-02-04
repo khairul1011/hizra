@@ -50,7 +50,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
 
-            <img src={Logo} width="80px" dan height="80px"
+            <img src={Logo} width="70px" dan height="60px"
               alt="....."
             />
 
@@ -58,14 +58,14 @@ export default function Navbar(props) {
 
 
           </div>
-          <li className="flex items-center">
+          {/* <li className="flex items-center">
             <Link
               
               className="hover:text-blueGray-500 text-blueGray-700 px-2 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
             >
 
             </Link>
-          </li>
+          </li> */}
           {/* <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               to="/Index"
@@ -90,7 +90,7 @@ export default function Navbar(props) {
                 <Link
                   to="/Index"
                   
-                  className="hover:text-blueGray-500 fas fa-home text-lightBlue-600 px-6 py-4 lg:py-2 flex items-center text-xl  font-bold"
+                  className="hover:text-blueGray-500 fas fa-home text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl  font-bold"
                 >
                   Home
                 </Link>
@@ -98,7 +98,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <>
                   <a
-                    className="hover:text-blueGray-500 fas fa-user text-lightBlue-600 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500 fas fa-user text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef}
                     onClick={(e) => {
@@ -142,7 +142,7 @@ export default function Navbar(props) {
 
                 <>
                   <a
-                    className="hover:text-blueGray-500  fas fa-wrench text-lightBlue-600 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500  fas fa-wrench text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef2}
                     onClick={(e) => {
@@ -197,7 +197,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link
                   to="/Artikel"
-                  className="hover:text-blueGray-500 fas fa-laptop text-lightBlue-600 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500 fas fa-laptop text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery
                 </Link>
@@ -205,7 +205,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link
                   to="/Kontak"
-                  className="hover:text-blueGray-500 fas fa-user-friends text-lightBlue-600 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500 fas fa-user-friends text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Official Partners
                 </Link>
@@ -213,7 +213,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link
                   to="/Kontak"
-                  className="hover:text-blueGray-500 fas fa-comments text-lightBlue-600 px-4 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500 fas fa-comments text-lightBlue-900 px-4 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ
                 </Link>

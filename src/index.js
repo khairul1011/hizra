@@ -18,7 +18,7 @@ import Index from "views/Index.js";
 import Team from "views/our-team.js";
 import Visi from "views/Visi";
 import FAQ from "views/FAQ";
-
+import Galery1 from "views/galery1";
 
 
 ReactDOM.render(
@@ -30,6 +30,7 @@ ReactDOM.render(
       {/* add routes without layouts */}
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
+      <Route path="/galery1" exact component={Galery1} />
       <Route path="/our-team" exact component={Team} />
       <Route path="/FAQ" exact component={FAQ} />
       <Route path="/Visi" exact component={Visi} />

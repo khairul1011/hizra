@@ -62,7 +62,7 @@ const props = {
   ],
 }
 
-export default function Example() {
+export default function team() {
   return (
     <>
     <Navbar transparent />

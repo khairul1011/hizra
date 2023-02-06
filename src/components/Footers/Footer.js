@@ -146,10 +146,10 @@ export default function Footer() {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()} Notus React by{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer"
+                  href="https://hizratech.com"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Creative Tim
+                  Tim Prduksi Hizratech
                 </a>
                 .
               </div>

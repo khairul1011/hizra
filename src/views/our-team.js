@@ -12,8 +12,7 @@ import "assets/styles/tailwind.css";
 const props = {
   heading3: {
     color: "orange",
-    subtitle: "The entourage",
-    title: "It is everything, and it won't change",
+    title: "Tim Hizratech",
     description:
       "It depends on your friends and companions, it depends on who goes out with you, if they have money, if you have money.",
     alignment: "center",
@@ -21,8 +20,8 @@ const props = {
   infoAreas: [
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Ryan Tompson",
-      jobTitle: "Web Developer",
+      name: "Aini",
+      jobTitle: "CEO",
       socialLinks: [
         { icon: "twitter", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -31,8 +30,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Romina Hadid",
-      jobTitle: "Marketing Specialist",
+      name: "Fatma",
+      jobTitle: "Direktur",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -40,8 +39,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Alexa Smith",
-      jobTitle: "UI/UX Designer",
+      name: "Ayu",
+      jobTitle: "Sekretaris",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -50,8 +49,96 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Jenna Kardi",
-      jobTitle: "Founder and CEO",
+      name: "Herman",
+      jobTitle: "Marketing",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Dina",
+      jobTitle: "Kepala Toko",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Dea",
+      jobTitle: "Kepala Gudang",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Akmal",
+      jobTitle: "Kepala Teknisi",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Zaenal",
+      jobTitle: "Kepala Toko",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Rizki",
+      jobTitle: "Programer",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Kahirul",
+      jobTitle: "Programer",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "dribbble", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Rezi",
+      jobTitle: "Teknisi",
+      socialLinks: [
+        { icon: "instagram", link: "#pablo" },
+        { icon: "facebook", link: "#pablo" },
+        { icon: "twitter", link: "#pablo" },
+        { icon: "whatsapp", link: "#pablo" },
+      ],
+    },
+    {
+      image: "/static/media/2.56dc7d63.png",
+      name: "Mr. Yoyok",
+      jobTitle: "Kepala Sekolah",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },

@@ -16,7 +16,7 @@ import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Index from "views/Index.js";
 import Team from "views/our-team.js";
-import Faq from "views/faq.js";
+import Faq from "views/Faq.js";
 import Visi from "views/Visi";
 
 

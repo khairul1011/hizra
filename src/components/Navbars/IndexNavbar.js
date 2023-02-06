@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { createPopper } from "@popperjs/core";
-import Logo from "assets/img/Hizratech (1).png";
+import Logo from "assets/img/Hizratech (1)s.png";
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
@@ -50,7 +50,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
 
-            <img src={Logo} width="70px" dan height="60px"
+            <img src={Logo} width="180px" dan height="100px"
               alt="....."
             />
 
@@ -117,8 +117,13 @@ export default function Navbar(props) {
                   >
 
                     <Link
+<<<<<<< HEAD
                       to="/visi-misi"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+=======
+                      to="/Profile"
+                      className="fas fa-user text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>>>>>>> a232308991f71324bc468a009923e42ccd052004
                     >
                       Visi & Misi
                     </Link>

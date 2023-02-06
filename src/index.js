@@ -17,6 +17,8 @@ import Profile from "views/Profile.js";
 import Index from "views/Index.js";
 import Team from "views/our-team.js";
 import Faq from "views/faq.js";
+import Visi from "views/Visi";
+
 
 
 
@@ -31,6 +33,7 @@ ReactDOM.render(
       <Route path="/profile" exact component={Profile} />
       <Route path="/our-team" exact component={Team} />
       <Route path="/faq" exact component={Faq} />
+      <Route path="/Visi" exact component={Visi} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

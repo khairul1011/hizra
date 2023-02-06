@@ -117,7 +117,7 @@ export default function Navbar(props) {
                   >
 
                     <Link
-                      to="/Profile"
+                      to="/Visi"
                       className="text-base fas fa-lightbulb py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       &nbsp; Visi & Misi

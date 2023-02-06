@@ -63,10 +63,10 @@ export default function Visi() {
                   </div>
                 </div>
                 <div className="text-center mt-12">
-                  <h3 className="text-4xl font-bold leading-normal mb-2 text-red-500 mb-2">
+                  <h3 className="text-4xl font-bold leading-normal mb-2 text-lightBlue-700 mb-2">
                     Visi & Misi
                   </h3>
-                  <div className="text-2xl leading-normal mt-0 mb-2 text-red-500 font-bold uppercase">
+                  <div className="text-2xl leading-normal mt-0 mb-2 text-lightBlue-700 font-bold uppercase">
                     PT. HIZRATECH KONSULTAN SERVIS
                   </div>
                 </div>

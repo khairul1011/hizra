@@ -15,7 +15,10 @@ import Auth from "layouts/Auth.js";
 import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Index from "views/Index.js";
-import team from "views/our-team.js";
+import Team from "views/our-team.js";
+import Faq from "views/faq.js";
+
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,7 +29,8 @@ ReactDOM.render(
       {/* add routes without layouts */}
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
-      <Route path="/our-team" exact component={team} />
+      <Route path="/our-team" exact component={Team} />
+      <Route path="/faq" exact component={Faq} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

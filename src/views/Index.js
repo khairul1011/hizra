@@ -34,7 +34,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto left-0 pt-16 sm:w-5/12 -mt-48 sm:mt-0 w-full max-h-860px"
-          src={require("assets/img/1.png").default}
+          src={require("assets/img/Home.png").default}
           alt="..."
 
         />

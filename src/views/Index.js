@@ -11,7 +11,7 @@ export default function Index() {
       <IndexNavbar fixed />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+          {/* <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="text-5xl font-bold  leading-normal mt-0 mb-2 text-lightBlue-600">
                 Innovative
@@ -29,7 +29,7 @@ export default function Index() {
             </div>
 
 
-          </div>
+          </div> */}
         </div>
 
         <img

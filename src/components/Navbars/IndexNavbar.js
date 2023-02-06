@@ -86,19 +86,19 @@ export default function Navbar(props) {
           >
 
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex items-center">
+              <li className="flex items-center fas fa-home px-4">
                 <Link
                   to="/Index"
                   
-                  className="hover:text-blueGray-500 fas fa-home text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl  font-bold"
+                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl  font-bold"
                 >
                   Home
                 </Link>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center px-4 fas fa-user">
                 <>
                   <a
-                    className="hover:text-blueGray-500 fas fa-user text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef}
                     onClick={(e) => {
@@ -118,31 +118,31 @@ export default function Navbar(props) {
 
                     <Link
                       to="/visi-misi"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-lightbulb py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Visi & Misi
+                      &nbsp; Visi & Misi
                     </Link>
                     <Link
                       to="/our-team"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-users py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Our Team
+                      &nbsp; Our Team
                     </Link>
                     <Link
                       to="/galery-pt"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-images py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Galery
+                      &nbsp; Galery
                     </Link>
 
                   </div>
                 </>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center fas fa-wrench px-4">
 
                 <>
                   <a
-                    className="hover:text-blueGray-500  fas fa-wrench text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500   text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef2}
                     onClick={(e) => {
@@ -194,26 +194,26 @@ export default function Navbar(props) {
                   </div>
                 </>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center fas fa-laptop px-4">
                 <Link
                   to="/galery-jasa"
-                  className="hover:text-blueGray-500 fas fa-laptop text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery
                 </Link>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center fas fa-user-friends px-4">
                 <Link
                   to="/mitra"
-                  className="hover:text-blueGray-500 fas fa-user-friends text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Official Partners
                 </Link>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center fas fa-comments px-4">
                 <Link
                   to="/faq"
-                  className="hover:text-blueGray-500 fas fa-comments text-lightBlue-900 px-4 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ
                 </Link>

@@ -117,19 +117,19 @@ export default function Navbar(props) {
                   >
 
                     <Link
-                      to="/Profile"
+                      to="/visi-misi"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Visi & Misi
                     </Link>
                     <Link
-                      to="/Artikel"
+                      to="/our-team"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Our Team
                     </Link>
                     <Link
-                      to="/Landing"
+                      to="/galery-pt"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Galery
@@ -161,31 +161,31 @@ export default function Navbar(props) {
                   >
 
                     <Link
-                      to="/Profile"
+                      to="/jasa-layanan-digital"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Layanan Digital
                     </Link>
                     <Link
-                      to="/Profile"
+                      to="/jasa-pengadaan-barang"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Pengadaan Barang
                     </Link>
                     <Link
-                      to="/Profile"
+                      to="/sys-dev"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       System Development
                     </Link>
                     <Link
-                      to="/Profile"
+                      to="/web-dev"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Web Development
                     </Link>
                     <Link
-                      to="/Profile"
+                      to="/digital-marketing"
                       className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Digital Marketing
@@ -196,7 +196,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <Link
-                  to="/Artikel"
+                  to="/galery-jasa"
                   className="hover:text-blueGray-500 fas fa-laptop text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery
@@ -204,7 +204,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <Link
-                  to="/Kontak"
+                  to="/mitra"
                   className="hover:text-blueGray-500 fas fa-user-friends text-lightBlue-900 px-6 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Official Partners
@@ -212,7 +212,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <Link
-                  to="/Kontak"
+                  to="/faq"
                   className="hover:text-blueGray-500 fas fa-comments text-lightBlue-900 px-4 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ

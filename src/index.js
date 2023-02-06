@@ -16,9 +16,8 @@ import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Index from "views/Index.js";
 import Team from "views/our-team.js";
-import Faq from "views/Faq.js";
 import Visi from "views/Visi";
-
+import FAQ from "views/FAQ";
 
 
 
@@ -32,7 +31,7 @@ ReactDOM.render(
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/our-team" exact component={Team} />
-      <Route path="/faq" exact component={Faq} />
+      <Route path="/FAQ" exact component={FAQ} />
       <Route path="/Visi" exact component={Visi} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}

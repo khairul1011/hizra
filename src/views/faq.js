@@ -42,7 +42,7 @@ const props = {
   ],
 }
 
-export default function Faq() {
+export default function faq() {
   return (
     <>
     <Navbar transparent />

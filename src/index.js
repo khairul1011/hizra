@@ -19,6 +19,7 @@ import Team from "views/our-team.js";
 import Visi from "views/Visi";
 import FAQ from "views/FAQ";
 import Galery1 from "views/galery1";
+import FAQ2 from "views/FAQ2";
 
 
 ReactDOM.render(
@@ -33,6 +34,7 @@ ReactDOM.render(
       <Route path="/galery1" exact component={Galery1} />
       <Route path="/our-team" exact component={Team} />
       <Route path="/FAQ" exact component={FAQ} />
+      <Route path="/FAQ2" exact component={FAQ2} />
       <Route path="/Visi" exact component={Visi} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}

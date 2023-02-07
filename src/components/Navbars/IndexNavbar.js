@@ -162,31 +162,31 @@ export default function Navbar(props) {
 
                     <Link
                       to="/jasa-layanan-digital"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Layanan Digital
                     </Link>
                     <Link
                       to="/jasa-pengadaan-barang"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Pengadaan Barang
                     </Link>
                     <Link
                       to="/sys-dev"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       System Development
                     </Link>
                     <Link
                       to="/web-dev"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Web Development
                     </Link>
                     <Link
                       to="/digital-marketing"
-                      className="text-base py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Digital Marketing
                     </Link>
@@ -212,7 +212,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center fas fa-comments px-4">
                 <Link
-                  to="/FAQ"
+                  to="/FAQ2"
                   className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ

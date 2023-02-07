@@ -4,15 +4,15 @@ import Navbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 // @notus-pro/react
 import FAQ1 from "@notus-pro/react/FAQ1"
-import "@notus-pro/react/tailwind.min.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "assets/styles/tailwind.css";
+// import "@notus-pro/react/tailwind.min.css";
+// import "@fortawesome/fontawesome-free/css/all.min.css";
+// import "assets/styles/tailwind.css";
 
 
 const props = {
   color: "lightBlue",
-  multiple: false,
-  defaultOpened: 0,
+  multiple: true,
+  defaultOpened: 1,
   items: [
     {
       title: "How do I order?",
@@ -47,7 +47,7 @@ export default function FAQ() {
     <>
     <Navbar transparent />
       <FAQ1 {...props} />
-      <Footer />
+    <Footer />
     </>
   )
 }

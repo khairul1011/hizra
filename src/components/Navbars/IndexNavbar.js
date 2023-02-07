@@ -129,7 +129,7 @@ export default function Navbar(props) {
                       &nbsp; Our Team
                     </Link>
                     <Link
-                      to="/galery-pt"
+                      to="/galery1"
                       className="text-base fas fa-images py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       &nbsp; Galery

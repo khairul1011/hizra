@@ -33,7 +33,7 @@ ReactDOM.render(
       <Route path="/galery1" exact component={Galery1} />
       <Route path="/our-team" exact component={Team} />
       <Route path="/FAQ" exact component={FAQ} />
-      <Route path="/Visi" exact component={Visi} />
+      <Route path="/Visi-misi" exact component={Visi} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

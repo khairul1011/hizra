@@ -212,7 +212,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center fas fa-comments px-4">
                 <Link
-                  to="/FAQ"
+                  to="/FAKS"
                   className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ

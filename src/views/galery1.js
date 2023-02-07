@@ -23,7 +23,7 @@ const props = {
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/2.56dc7d63.png",
+        image: "/static/media/2.56dc7d63.jpg",
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",

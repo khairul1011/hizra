@@ -10,6 +10,8 @@ import NavbarLinks from "@notus-pro/react/NavbarLinks"
 import HeaderVideoTitle from "@notus-pro/react/HeaderVideoTitle"
 import PreFooterLarge from "@notus-pro/react/PreFooterLarge"
 import FooterSmall from "@notus-pro/react/FooterSmall"
+import Projects1 from "@notus-pro/react/Projects1"
+import Testimonials1 from "@notus-pro/react/Testimonials1"
 
 import "@notus-pro/react/tailwind.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -55,58 +57,184 @@ const blogs1 = {
     },
   ],
 }
+
+const testimonials1 = {
+    heading2: {
+      color: "red",
+      subtitle: "See our customers opinion",
+      title: "Join our world",
+      description:
+        "Meet Wingman, a robust suite of styled pages and components, powered by Bootstrap 4. The ideal starting point for product landing pages, stylish web-apps and complete company websites.",
+      alignment: "left",
+    },
+    button: { color: "pink", children: "Contact us" },
+    mediaplayer: {
+      defaultOpened: 0,
+      items: [
+        {
+          title: "Andrew Lino",
+          description:
+            "Take up one idea. Make that one idea your life, think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part ofyour body, be full of that idea, and just leave every other idea alone. This is the way to success. A single rose can be my garden... a single friend, my world.",
+          image: "/notus-pro-react/static/media/team-1.26905a67.jpg",
+        },
+        {
+          title: "Michael Jenos",
+          description:
+            'Artist is a term applied to a person who engages in an activity deemed to be an art. An artist also may be defined unofficially as "a person who expresses him- or herself through a medium". He is a descriptive term applied to a person who engages in an activity deemed to be an art.',
+          image: "/notus-pro-react/static/media/team-2.b81557ef.jpg",
+        },
+        {
+          title: "Rose Arthur",
+          description:
+            "The simplest visual description uses ordinary words to convey what the writer sees. First he or she must look at the subject – slowly, carefully, and repeatedly, if possible – to identify the parts that make the whole",
+          image: "/notus-pro-react/static/media/team-3.c5d0c11c.jpg",
+        },
+        {
+          title: "Lora Jimi",
+          description:
+            "Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover, which raised $65 million to expand its pet sitting and dog-walking businesses..Finding temporary housing for your dog should be as easy as renting an Airbnb.",
+          image: "/notus-pro-react/static/media/team-4.639c2559.jpg",
+        },
+        {
+          title: "Mike Ranson",
+          description:
+            "Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings and a few outsized early-stage rounds in tech and healthcare..enture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large.",
+          image: "/notus-pro-react/static/media/team-5.22135691.jpg",
+        },
+      ],
+    },
+  }
+
+const projects1 = {
+    heading2: {
+      color: "teal",
+    //   subtitle: "Have you seen us?",
+      title: "Bagaimana Proses Pembuatan Jasa Layanan Digital di Hizratech",
+      description:
+        " ",
+      alignment: "center",
+      whiteContent: true,
+    },
+    cards: [
+      {
+        icon: "fas fa-headphones",
+        color: "lightBlue",
+        title: "Konsultasi Layanan",
+        description:
+          "Kita akan saling berkonsultasi tentang kebutuhan website Anda, seperti fitur yang akan dibuat.",
+        link: { href: "#pablo", children: "More details..." },
+      },
+      {
+        icon: "fas fa-shopping-cart",
+        color: "emerald",
+        title: "Pemesanan Layanan",
+        description:
+          "Setelah berkonsultasi, selanjutnya Anda bisa memesan jasa pembuatan website kami.",
+        link: { href: "#pablo", children: "Check more" },
+      },
+      {
+        icon: "fas fa-paper-plane",
+        color: "red",
+        title: "Pengiriman Konten",
+        description:
+          "Setelah memesan, Anda bisa mengirim konten untuk kebutuhan website, seperti logo jika dibutuhkan.",
+        link: { href: "#pablo", children: "Check more" },
+      },
+      {
+        icon: "fas fa-tools",
+        color: "blueGray",
+        title: "Pembuatan Website",
+        description:
+          "Setelah mengirim konten, biarkan kami yang membuat website nya untuk Anda. Anda tinggal duduk manis saja.",
+        link: { href: "#pablo", children: "Check more" },
+      },
+      {
+        icon: "fas fa-file-upload",
+        color: "orange",
+        title: "Upload Website",
+        description:
+          "Kami akan mengupload nya ke hosting dan domain yang Anda pilih sehingga website Anda sudah bisa diakses.",
+        link: { href: "#pablo", children: "Check more" },
+      },
+      {
+        icon: "fas fa-universal-access",
+        color: "teal",
+        title: "Pemberian Akses",
+        description:
+          "Kami akan memberikan data login website, hosting, dan lain-lain kepada Anda. Jadi, Anda bisa mengelola website Anda.",
+        link: { href: "#pablo", children: "Check more" },
+      },
+    ],
+  }
+
 const hero4 = {
   heading2badge: {
-    badge: { color: "pink", children: "Lost angels" },
-    title: "Why did you last so much, nobody knows",
+    // badge: { color: "pink", children: "Lost angels" },
+    title: "Mengapa Harus Jasa Layanan Digital di Hizratech?",
     description:
-      "There will come a day, when you'll fall again, and you know this, but like myself, you too have some angels that help you.",
+      "",
   },
   leftCardProps: {
-    image: "/notus-pro-react/static/media/img-1.f2fd521a.jpg",
-    title: "Notus Design System",
+    image: "https://demos.creative-tim.com/notus-pro-react/static/media/img-1.f2fd521a.jpg",
+    title: "Hizratech",
     description:
-      "That’s my skill, I like to create things that last many years. I’m not really specifically talented at anything except for the ability to learn. That's it, see you at top...",
+      "Jasa pembuatan website kami SEO friendly sehingga website Anda mudah ditemukan di mesin pencari.",
   },
   rightCardInfoIconProps: {
     color: "orange",
-    icon: "fas fa-smile-beam",
-    title: "Best Quality",
+    icon: "fas fa-rocket",
+    title: "SEO Friendly",
     description:
-      "It becomes harder for us to give others a hand. We get our heart broken by people we love.",
+      "Jasa layanan digital kami SEO friendly sehingga website Anda mudah ditemukan di mesin pencari.",
     gradient: false,
   },
   rightCardBlogImageProps: {
     color: "lightBlue",
-    icon: "fas fa-palette",
-    title: "Awesome Design",
+    icon: "fas fa-dollar-sign",
+    title: "Harga Murah",
     description:
-      "As we live, our hearts turn colder. Cause pain is what we go through as we become older.",
+      "Kami menawarkan layanan digital dengan harga yang murah sehingga Anda dapat menghemat kantong.",
     gradient: false,
   },
   rightCardContactUsTitleProps: {
-    color: "red",
-    icon: "fas fa-running",
-    title: "Fast Development",
+    color: "orange",
+    icon: "fas fa-mobile",
+    title: "Mobile Friendly",
     description:
-      "We’re not always in the position that we want to be at. We’re constantly growing.",
+      "Kami membuat website yang mobile friendly. Desain website Anda akan menyesuaikan ketika dibuka melalui smartphone.",
     gradient: false,
   },
   rightCardInfoImageProps: {
     color: "emerald",
-    icon: "fas fa-glasses",
-    title: "Super Fresh",
+    icon: "fas fa-globe",
+    title: "Gratis Hosting dan Domain",
     description:
-      "When we lose family over time. What else could rust the heart more over time? Blackgold.",
+      "Belum punya hosting? Tenang, kami telah menyediakan hosting dan domain bagi website Anda. Jadi, Anda tidak perlu mengeluarkan biaya lagi.",
+    gradient: false,
+  },
+  rightCardInfoImage2Props: {
+    color: "emerald",
+    icon: "fas fa-cogs",
+    title: "Gratis Maintenance",
+    description:
+      "Jasa pembuatan website kami menyediakan gratis maintenance. Kami akan memastikan website Anda berjalan dengan baik dan aman dari serangan hacker.",
+    gradient: false,
+  },
+  rightCardContactUsTitle2Props: {
+    color: "lightBlue",
+    icon: "fas fa-hand-holding-heart",
+    title: "Sesuai Keinginan",
+    description:
+      "Anda ingin fitur tambahan pada website Anda? Tentu, kami bisa membuat website dengan fitur sesuai dengan yang Anda inginkan.",
     gradient: false,
   },
 }
 const hero5 = {
   heading2badge: {
-    badge: { color: "pink", children: "Fight hard", round: true },
-    title: "It's time to know",
+    // badge: { color: "pink", children: "Fight hard", round: true },
+    title: "Bagaimana Proses Pembuatan Jasa Layanan Digital di Hizratech",
     description:
-      "Go and show them how strong you are. Leave them with their jaws to the ground, and hit them so that they faint on the ropes. Since you've got talent, you have to wear a crown.",
+      " ",
     alignment: "center",
   },
   infoAreas: [
@@ -241,13 +369,13 @@ const navbarlinkslanding2 = {
   ],
 }
 const headervideotitle = {
-  video: "/notus-pro-react/static/media/Lights - 26607.9ba442f8.mp4",
-  title: "Welcome to our most special company",
+  video: "https://demos.creative-tim.com/notus-pro-react/static/media/Lights - 26607.9ba442f8.mp4",
+  title: "Jasa Layanan Digital",
   subtitle:
-    "We’re not always in the position that we want to be at. We’re constantly growing! When you're home, is different, since your parents are helping you.",
+    "Anda hanya duduk manis, kami yang membuat website untuk Anda",
   buttonColor: "red",
-  buttonText: "Get in contact",
-  buttonIcon: "fas fa-play",
+  buttonText: "Konsultasi Gratis",
+  buttonIcon: "fas fa-arrow",
   skew: { color: "white" },
 }
 const prefooterlarge = {
@@ -305,7 +433,9 @@ export default function Layanandigi() {
       <HeaderVideoTitle {...headervideotitle} />
       <div className="container mx-auto px-4">
         <Hero4 {...hero4} />
-        <Hero5 {...hero5} />
+        <Projects1 {...projects1} />
+        {/* s<Testimonials1 {...testimonials1} /> */}
+        {/* <Hero5 {...hero5} /> */}
         <Blogs1 {...blogs1} />
         {/* <Pricing1 {...pricing1} /> */}
       </div>

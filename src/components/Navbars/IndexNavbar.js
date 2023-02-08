@@ -161,13 +161,13 @@ export default function Navbar(props) {
                   >
 
                     <Link
-                      to="/Jasalayanan"
+                      to="/Jasa-layanan"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Layanan Digital
                     </Link>
                     <Link
-                      to="/jasa-pengadaan-barang"
+                      to="/Jasa-barang"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Pengadaan Barang
@@ -179,13 +179,13 @@ export default function Navbar(props) {
                       System Development
                     </Link>
                     <Link
-                      to="/web-dev"
+                      to="/Web-dev"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Web Development
                     </Link>
                     <Link
-                      to="/digital-marketing"
+                      to="/Digital-marketing"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Digital Marketing
@@ -196,7 +196,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center fas fa-laptop px-4">
                 <Link
-                  to="/galery-jasa"
+                  to="/Galery-jasa"
                   className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery
@@ -204,7 +204,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center fas fa-user-friends px-4">
                 <Link
-                  to="/mitra"
+                  to="/Mitra"
                   className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Official Partners

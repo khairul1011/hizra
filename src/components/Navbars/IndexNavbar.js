@@ -161,7 +161,7 @@ export default function Navbar(props) {
                   >
 
                     <Link
-                      to="/System-Dev"
+                      to="/Jasa-digital"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       Jasa Layanan Digital
@@ -173,7 +173,7 @@ export default function Navbar(props) {
                       Jasa Pengadaan Barang
                     </Link>
                     <Link
-                      to="/sys-dev"
+                      to="/System-Dev"
                       className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
                       System Development

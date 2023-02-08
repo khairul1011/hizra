@@ -21,7 +21,13 @@ import FAQ from "views/FAQ";
 import Galery1 from "views/galery1";
 import FAQ2 from "views/FAQ2";
 import Sysdev from "views/Sysdev";
-import Jasdig from "views/Jasa-layanan-digital";
+
+import Layanandigi from "views/Layanandigi";
+
+
+
+
+
 
 
 ReactDOM.render(
@@ -39,7 +45,9 @@ ReactDOM.render(
       <Route path="/FAQ2" exact component={FAQ2} />
       <Route path="/Visi-misi" exact component={Visi} />
       <Route path="/System-Dev" exact component={Sysdev} />
-      <Route path="/Jasa-digital" exact component={Jasdig} />
+      
+   
+      <Route path="/Jasalayanan" exact component={Layanandigi} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

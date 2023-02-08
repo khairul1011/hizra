@@ -370,7 +370,7 @@ const navbarlinkslanding2 = {
 }
 const headervideotitle = {
   video: "https://demos.creative-tim.com/notus-pro-react/static/media/Lights - 26607.9ba442f8.mp4",
-  title: "Jasa Pengadaan Barang",
+  title: "Digital Marketing",
   subtitle:
     "Anda hanya duduk manis, kami yang membuat website untuk Anda",
   buttonColor: "red",
@@ -425,7 +425,7 @@ const footersmall = {
   ],
 }
 
-export default function Jasbar() {
+export default function Digitalmarketing() {
   return (
     <>
       {/* <NavbarLinks {...navbarlinkslanding2} /> */}

@@ -162,33 +162,33 @@ export default function Navbar(props) {
 
                     <Link
                       to="/Jasa-layanan"
-                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-screwdriver py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Jasa Layanan Digital
+                      &nbsp; Jasa Layanan Digital
                     </Link>
                     <Link
                       to="/Jasa-barang"
-                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-hammer py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Jasa Pengadaan Barang
+                     &nbsp; Jasa Pengadaan Barang
                     </Link>
                     <Link
                       to="/System-Dev"
-                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-tools py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      System Development
+                     &nbsp; System Development
                     </Link>
                     <Link
                       to="/Web-dev"
-                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-cogs py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Web Development
+                      &nbsp;Web Development
                     </Link>
                     <Link
                       to="/Digital-marketing"
-                      className="text-base py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-wrench py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
                     >
-                      Digital Marketing
+                      &nbsp;Digital Marketing
                     </Link>
 
                   </div>

@@ -23,6 +23,7 @@ import FAQ2 from "views/FAQ2";
 import Sysdev from "views/Sysdev";
 
 import Layanandigi from "views/Layanandigi";
+import Jasabarang from "views/Jasbar";
 
 
 
@@ -47,7 +48,8 @@ ReactDOM.render(
       <Route path="/System-Dev" exact component={Sysdev} />
       
    
-      <Route path="/Jasalayanan" exact component={Layanandigi} />
+      <Route path="/Jasa-layanan" exact component={Layanandigi} />
+      <Route path="/Jasa-barang" exact component={Jasabarang} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

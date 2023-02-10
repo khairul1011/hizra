@@ -228,8 +228,7 @@ export default function Index() {
                   Kualitas Terbaik
                 </h5>
                 <h5 className="text-sm font-bold pb-4 text-center text-black">
-                  Give a detailed description of the service being provided here.
-                  Give a detailed description of the service being provided here.
+                  Team akan melakukan yang terbaik untuk klean serta mengutamakan kualitas yang tidak merngecewakan klien.
                 </h5>
               </div>
 
@@ -248,9 +247,7 @@ export default function Index() {
                   Klien Terpercaya
                 </h5>
                 <h5 className="text-sm font-bold pb-4 text-center text-black">
-                  Give a detailed description of the service being provided here.
-                  Give a detailed description of the service being provided here.
-
+                 klien sepenuhnya bisa mempercayain hizratech sebagai mitranya,serta hizratech siap untuk menyelesaikan kendala yang dihadapi oleh klean.
                 </h5>
               </div>
 
@@ -269,8 +266,7 @@ export default function Index() {
                   Layanan Bervariasi
                 </h5>
                 <h5 className="text-sm font-bold pb-4 text-center text-black">
-                  Give a detailed description of the service being provided here.
-                  Give a detailed description of the service being provided here.
+                 Hizratech menyediakan berbagai jasa layanan sesuai dengan kebutuhan klean.
 
                 </h5>
               </div>

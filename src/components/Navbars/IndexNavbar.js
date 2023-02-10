@@ -45,7 +45,7 @@ export default function Navbar(props) {
 
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">
+      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow bg-[url('/src/assets/img/Home (2).jpg')]">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
@@ -196,7 +196,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center fas fa-laptop px-4">
                 <Link
-                  to="/Galery-jasa"
+                  to="/Gallery"
                   className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery

@@ -79,6 +79,10 @@ module.exports = {
       backgroundSize: {
         full: "100%",
       },
+      backgroundImage: {
+        'hero-pattern': "url('/src/assets/img/Home (2).jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     },
   },
   variants: [

@@ -9,7 +9,7 @@ const props = {
   heading3: {
     color: "emerald",
     subtitle: "Our latest blogposts",
-    title: "Gallery of Hizratech",
+    title: "Gallery Team Hizratech",
     description:
       " ",
     alignment: "center",

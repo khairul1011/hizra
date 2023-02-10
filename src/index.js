@@ -27,6 +27,7 @@ import Jasabarang from "views/Jasbar";
 import Systemdev from "views/Systemdev";
 import Webdev from "views/Webdev";
 import Digmar from "views/Digitalmarketing";
+import Gallery2 from "views/Gallery2";
 
 
 
@@ -52,7 +53,8 @@ ReactDOM.render(
       <Route path="/Jasa-barang" exact component={Jasabarang} />
       <Route path="/System-Dev" exact component={Systemdev} />
       <Route path="/Web-Dev" exact component={Webdev} />
-      <Route path="/Digital-Marketing" exact component={Digmar} />
+      
+      <Route path="/Gallery" exact component={Gallery2} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

@@ -45,7 +45,7 @@ export default function Navbar(props) {
 
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow bg-[url('/src/assets/img/Home (2).jpg')]">
+      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow ">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
@@ -86,11 +86,16 @@ export default function Navbar(props) {
           >
 
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+             
+
+              
+
               <li className="flex items-center fas fa-home px-4">
                 <Link
                   to="/Index"
-                  
-                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl  font-bold"
+
+                  className="hover:text-blueGray-500  text-black px-2 py-4 lg:py-2 flex items-center text-xl  font-bold"
                 >
                   Home
                 </Link>
@@ -98,7 +103,7 @@ export default function Navbar(props) {
               <li className="flex items-center px-4 fas fa-user">
                 <>
                   <a
-                    className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500  text-black  px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef}
                     onClick={(e) => {
@@ -118,19 +123,19 @@ export default function Navbar(props) {
 
                     <Link
                       to="/Visi-misi"
-                      className="text-base fas fa-lightbulb py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-lightbulb py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp; Visi & Misi
                     </Link>
                     <Link
                       to="/our-team"
-                      className="text-base fas fa-users py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-users py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp; Our Team
                     </Link>
                     <Link
                       to="/galery1"
-                      className="text-base fas fa-images py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-images py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp; Galery
                     </Link>
@@ -142,7 +147,7 @@ export default function Navbar(props) {
 
                 <>
                   <a
-                    className="hover:text-blueGray-500   text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
+                    className="hover:text-blueGray-500   text-black  px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                     href="#pablo"
                     ref={btnDropdownRef2}
                     onClick={(e) => {
@@ -162,31 +167,31 @@ export default function Navbar(props) {
 
                     <Link
                       to="/Jasa-layanan"
-                      className="text-base fas fa-screwdriver py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-screwdriver py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp; Jasa Layanan Digital
                     </Link>
                     <Link
                       to="/Jasa-barang"
-                      className="text-base fas fa-hammer py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-hammer py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
-                     &nbsp; Jasa Pengadaan Barang
+                      &nbsp; Jasa Pengadaan Barang
                     </Link>
                     <Link
                       to="/System-Dev"
-                      className="text-base fas fa-tools py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-tools py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
-                     &nbsp; System Development
+                      &nbsp; System Development
                     </Link>
                     <Link
                       to="/Web-dev"
-                      className="text-base fas fa-cogs py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-cogs py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp;Web Development
                     </Link>
                     <Link
                       to="/Digital-marketing"
-                      className="text-base fas fa-wrench py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                      className="text-base fas fa-wrench py-2 px-4 font-semibold block w-full whitespace-nowrap bg-transparent text-black "
                     >
                       &nbsp;Digital Marketing
                     </Link>
@@ -197,7 +202,7 @@ export default function Navbar(props) {
               <li className="flex items-center fas fa-laptop px-4">
                 <Link
                   to="/Gallery"
-                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-black  px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Galery
                 </Link>
@@ -205,7 +210,7 @@ export default function Navbar(props) {
               <li className="flex items-center fas fa-user-friends px-4">
                 <Link
                   to="/Mitra"
-                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-black  px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   Official Partners
                 </Link>
@@ -213,9 +218,10 @@ export default function Navbar(props) {
               <li className="flex items-center fas fa-comments px-4">
                 <Link
                   to="/FAQ2"
-                  className="hover:text-blueGray-500  text-lightBlue-900 px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
+                  className="hover:text-blueGray-500  text-black  px-2 py-4 lg:py-2 flex items-center text-xl font-bold"
                 >
                   FAQ
+                  
                 </Link>
               </li>
 

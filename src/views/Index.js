@@ -7,6 +7,8 @@ import Footer from "components/Footers/Footer.js";
 import Teams1 from "@notus-pro/react/Teams1";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
+
 //import 'Sl.css';
 
 const settings = {

@@ -20,8 +20,8 @@ const props = {
   infoAreas: [
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Aini",
-      jobTitle: "CEO",
+      name: "Aini Latifa Zanil",
+      jobTitle: "Direktur",
       socialLinks: [
         { icon: "twitter", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -30,8 +30,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Fatma",
-      jobTitle: "Direktur",
+      name: "Dina Silvia",
+      jobTitle: "Sekretaris",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -39,8 +39,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Ayu",
-      jobTitle: "Sekretaris",
+      name: "Fatmawati",
+      jobTitle: "Supervisor",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -50,7 +50,7 @@ const props = {
     {
       image: "/static/media/2.56dc7d63.png",
       name: "Herman",
-      jobTitle: "Marketing",
+      jobTitle: "Head Marketing",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -60,8 +60,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Dina",
-      jobTitle: "Kepala Toko",
+      name: "Wahyu Ningsih",
+      jobTitle: "Adm & Keuangan",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -71,8 +71,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Dea",
-      jobTitle: "Kepala Gudang",
+      name: "Dhea Wistafina",
+      jobTitle: "Logistic & Warehouse",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -82,8 +82,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Akmal",
-      jobTitle: "Kepala Teknisi",
+      name: "Zul Akmal",
+      jobTitle: "Programmer",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -93,8 +93,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Zaenal",
-      jobTitle: "Kepala Toko",
+      name: "Rizky Yunasrianto",
+      jobTitle: "Programmer",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -104,7 +104,7 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Rizki",
+      name: "Khairul Anuar",
       jobTitle: "Programer",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
@@ -115,8 +115,8 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Kahirul",
-      jobTitle: "Programer",
+      name: "Muhammad Fahrezy",
+      jobTitle: "Teknisi",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },
         { icon: "facebook", link: "#pablo" },
@@ -126,7 +126,7 @@ const props = {
     },
     {
       image: "/static/media/2.56dc7d63.png",
-      name: "Rezi",
+      name: "Zaenal Arifin",
       jobTitle: "Teknisi",
       socialLinks: [
         { icon: "instagram", link: "#pablo" },

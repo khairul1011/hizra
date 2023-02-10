@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.0eb6d74a.chunk.css",
-    "main.js": "/static/js/main.cf8987cf.chunk.js",
-    "main.js.map": "/static/js/main.cf8987cf.chunk.js.map",
+    "main.js": "/static/js/main.d4b02e4f.chunk.js",
+    "main.js.map": "/static/js/main.d4b02e4f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.28ff4d59.js",
     "runtime-main.js.map": "/static/js/runtime-main.28ff4d59.js.map",
     "static/css/2.7133e797.chunk.css": "/static/css/2.7133e797.chunk.css",
-    "static/js/2.f32836df.chunk.js": "/static/js/2.f32836df.chunk.js",
-    "static/js/2.f32836df.chunk.js.map": "/static/js/2.f32836df.chunk.js.map",
+    "static/js/2.e783b233.chunk.js": "/static/js/2.e783b233.chunk.js",
+    "static/js/2.e783b233.chunk.js.map": "/static/js/2.e783b233.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7133e797.chunk.css.map": "/static/css/2.7133e797.chunk.css.map",
     "static/css/main.0eb6d74a.chunk.css.map": "/static/css/main.0eb6d74a.chunk.css.map",
-    "static/js/2.f32836df.chunk.js.LICENSE.txt": "/static/js/2.f32836df.chunk.js.LICENSE.txt",
+    "static/js/2.e783b233.chunk.js.LICENSE.txt": "/static/js/2.e783b233.chunk.js.LICENSE.txt",
     "static/media/2.png": "/static/media/2.56dc7d63.png",
     "static/media/Black & Orange Minimal Startup H Letter Business Logo (1).png": "/static/media/Black & Orange Minimal Startup H Letter Business Logo (1).3cd26301.png",
     "static/media/Hizratech (1)s.5b08ea55.png": "/static/media/Hizratech (1)s.5b08ea55.png",
     "static/media/Home.png": "/static/media/Home.4c8653f4.png",
+    "static/media/Macam-macam-layanan-internet.jpg": "/static/media/Macam-macam-layanan-internet.0a25918c.jpg",
     "static/media/angular.jpg": "/static/media/angular.b5045666.jpg",
     "static/media/bootstrap.jpg": "/static/media/bootstrap.bd712487.jpg",
     "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/github.svg": "/static/media/github.f7165d3e.svg",
     "static/media/google.svg": "/static/media/google.952443d7.svg",
+    "static/media/hhh.jpg": "/static/media/hhh.01995652.jpg",
     "static/media/layanan.jpg": "/static/media/layanan.8bc5c296.jpg",
     "static/media/lep.jpg": "/static/media/lep.ee590a9d.jpg",
     "static/media/programmin-990x500.jpg": "/static/media/programmin-990x500.97c823e1.jpg",
@@ -32,13 +34,14 @@
     "static/media/team-2-800x800.jpg": "/static/media/team-2-800x800.3e08ef14.jpg",
     "static/media/team-3-800x800.jpg": "/static/media/team-3-800x800.19201574.jpg",
     "static/media/team-4-470x470.png": "/static/media/team-4-470x470.4ef82ef4.png",
-    "static/media/vue.jpg": "/static/media/vue.43bd93a8.jpg"
+    "static/media/vue.jpg": "/static/media/vue.43bd93a8.jpg",
+    "static/media/yyy.jpg": "/static/media/yyy.ad97d94a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.28ff4d59.js",
     "static/css/2.7133e797.chunk.css",
-    "static/js/2.f32836df.chunk.js",
+    "static/js/2.e783b233.chunk.js",
     "static/css/main.0eb6d74a.chunk.css",
-    "static/js/main.cf8987cf.chunk.js"
+    "static/js/main.d4b02e4f.chunk.js"
   ]
 }

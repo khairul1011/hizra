@@ -22,14 +22,17 @@ export default function Index() {
     <>
       <IndexNavbar fixed />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
+      
         <div className="container mx-auto items-center flex flex-wrap">
 
         </div>
+        <IndexNavbar fixed />
         <img
           className="absolute top-0 b-auto left-0 pt-16 sm:w-full
            -mt-48 sm:mt-0 w-full max-h-860px"
           src={require("assets/img/Home.png").default}
           alt="..."
+          
         />
       </section>
 
@@ -207,7 +210,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
-              <h3 className="text-5xl mb-2 font-bold leading-normal text-indigo-500">
+              <h3 className="text-5xl mb-2 font-bold leading-normal text-black">
                 Why HKS ?
               </h3>
               <div className="text-center mt-16"></div>
@@ -220,7 +223,7 @@ export default function Index() {
                     <img
                       alt="..."
                       className="align-middle border-none max-w-full h-auto rounded-lg"
-                      src={require("assets/img/team-4-470x470.png").default}
+                      src={require("assets/img/yyy.jpg").default}
                     />
                   </div>
                 </Link>
@@ -239,7 +242,7 @@ export default function Index() {
                     <img
                       alt="..."
                       className="align-middle border-none max-w-full h-auto rounded-lg"
-                      src={require("assets/img/team-1-800x800.jpg").default}
+                      src={require("assets/img/hhh.jpg").default}
                     />
                   </div>
                 </Link>
@@ -247,7 +250,7 @@ export default function Index() {
                   Klien Terpercaya
                 </h5>
                 <h5 className="text-sm font-bold pb-4 text-center text-black">
-                 klien sepenuhnya bisa mempercayain hizratech sebagai mitranya,serta hizratech siap untuk menyelesaikan kendala yang dihadapi oleh klean.
+                  klien sepenuhnya bisa mempercayain hizratech sebagai mitranya,serta hizratech siap untuk menyelesaikan kendala yang dihadapi oleh klien.
                 </h5>
               </div>
 
@@ -258,7 +261,7 @@ export default function Index() {
                     <img
                       alt="..."
                       className="align-middle border-none max-w-full h-auto rounded-lg"
-                      src={require("assets/img/team-3-800x800.jpg").default}
+                      src={require("assets/img/Macam-macam-layanan-internet.jpg").default}
                     />
                   </div>
                 </Link>
@@ -266,7 +269,7 @@ export default function Index() {
                   Layanan Bervariasi
                 </h5>
                 <h5 className="text-sm font-bold pb-4 text-center text-black">
-                 Hizratech menyediakan berbagai jasa layanan sesuai dengan kebutuhan klean.
+                  Hizratech menyediakan berbagai jasa layanan sesuai dengan kebutuhan klien.
 
                 </h5>
               </div>
@@ -338,14 +341,46 @@ export default function Index() {
           </svg>
         </div>
         <div className="w-full text-left py-12 px-6 lg:w-full">
-          <h3 className="text-5xl mb-2 font-bold leading-normal text-lightBlue-700">
-            MITRA KAMI           
-         </h3>
+          <h3 className="text-5xl mb-2 px-12 font-bold leading-normal text-lightBlue-700">
+            MITRA KAMI
+          </h3>
           <div className="text-center mt-1"></div>
         </div>
-        <div className="mt-4 py-10 border-t border-blueGray-200 text-center ">
+        <div className="mt-4 py-10  border-t border-blueGray-200 text-center ">
           <Slider {...settings}>
-            <div className="text-center mt-0">
+            <div className="flex flex-wrap justify-center">
+              <div className="w-6/12 sm:w-4/12 px-4 ">
+                SMA A
+                <img src={require("assets/img/sketch.jpg").default} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center">
+              <div className="w-6/12 sm:w-4/12 px-4 ">
+                SMA B
+                <img src={require("assets/img/sketch.jpg").default} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center">
+              <div className="w-6/12 sm:w-4/12 px-4 ">
+                SMA C
+                <img src={require("assets/img/sketch.jpg").default} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center">
+              <div className="w-6/12 sm:w-4/12 px-4 ">
+                SMA D
+                <img src={require("assets/img/sketch.jpg").default} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center">
+              <div className="w-6/12 sm:w-4/12 px-4 ">
+                SMA E
+                <img src={require("assets/img/sketch.jpg").default} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              </div>
+            </div>
+
+
+            {/* <div className="text-center mt-0">
               <div className="text-2xl leading-normal mt-0 mb-2 text-lightBlue-700 font-bold uppercase">
                 SMA A
                 <div><img src={require("assets/img/lep.jpg").default} alt="Credit to Joshua Earle on Unsplash" /></div>
@@ -379,7 +414,7 @@ export default function Index() {
                 <div><img src={require("assets/img/lep.jpg").default} alt="Credit to Joshua Earle on Unsplash" /></div>
 
               </div>
-            </div>
+            </div> */}
 
 
           </Slider>

@@ -33,7 +33,7 @@ export default function Index() {
         />
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-1 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -124,10 +124,7 @@ export default function Index() {
                     System Development
                   </h5>
                   <h5 className="text-sm font-bold pb-4 text-center text-white">
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
+                    Hizratech bersedia untuk merancang, menguji dan mengimplementasikan aplikasi perangkat lunak baru atau program sesuai dengan kebutuhan klien.
                   </h5>
                 </div>
 
@@ -146,10 +143,7 @@ export default function Index() {
                     Layanan Publik
                   </h5>
                   <h5 className="text-sm font-bold pb-4 text-center text-white">
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
+                    Hizratech siap untuk melayani klien dalam rangka pemenuhan kebutuhan pelayanan baik di bidang jasa, layanan maupun administratif.
                   </h5>
                 </div>
 
@@ -168,10 +162,7 @@ export default function Index() {
                     Jual Beli Perangkat Lunak dan Keras
                   </h5>
                   <h5 className="text-sm font-bold pb-4 text-center text-white">
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
-                    Give a detailed description of the service being provided here.
+                    Hizratech juga menjual berbagai jenis barang perangkat lunak dan keras.
                   </h5>
                 </div>
               </div>
@@ -330,7 +321,7 @@ export default function Index() {
         </div> */}
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-0 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -352,7 +343,8 @@ export default function Index() {
         </div>
         <div className="w-full text-left py-12 px-6 lg:w-full">
           <h3 className="text-5xl mb-2 font-bold leading-normal text-lightBlue-700">
-            MITRA KAMI              </h3>
+            MITRA KAMI           
+         </h3>
           <div className="text-center mt-1"></div>
         </div>
         <div className="mt-4 py-10 border-t border-blueGray-200 text-center ">

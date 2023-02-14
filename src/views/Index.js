@@ -28,7 +28,7 @@ export default function Index() {
         <div className="container mx-auto items-center flex flex-wrap">
 
         </div>
-        <IndexNavbar fixed />
+        
         <img
           className="absolute top-0 b-auto left-0 pt-16 sm:w-full
            -mt-48 sm:mt-0 w-full max-h-860px"
@@ -60,7 +60,7 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="container mx-auto px-4 pb-32 pt-48">
+            <div className="container mx-auto px-4 pb-32 pt-12">
               <div className="items-center flex flex-wrap">
                 <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
                   <div className="md:pr-12">
@@ -102,7 +102,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="justify-center text-center flex flex-wrap mt-24">
+        <div className="justify-center text-center flex flex-wrap mt-2">
           <div className="w-full md:w-6/12 px-12 md:px-4 ">
             <h3 className="text-5xl font-bold text-orange-500">What We Offer</h3>
           </div>
